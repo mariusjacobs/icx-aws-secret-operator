@@ -37,3 +37,6 @@ spec:
               value: "aws-secret-operator"
             - name: AWS_REGION
               value: "us-west-1"
+      nodeSelector:
+        kubernetes.io/os: linux
+        kubernetes.io/arch: amd64
