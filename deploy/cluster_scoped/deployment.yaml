@@ -36,4 +36,4 @@ spec:
             - name: OPERATOR_NAME
               value: "aws-secret-operator"
             - name: AWS_REGION
-              value: REPLACE_THIS_WITH_YOUR_REGION
+              value: "us-west-1"
